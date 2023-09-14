@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 #ifdef BM_PLATFORM_WINDOWS
    #ifdef BM_BUILD_DLL
        #define BM_API _declspec(dllexport)
